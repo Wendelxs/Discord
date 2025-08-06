@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hero {
+  background-image: url('/img/Header\ Background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.hero-buttons button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: linear 0.5s;
+}
+
+.hero-buttons .outline {
+  background: rgb(35, 39, 42);
+  color: white;
+}
+
+h1{
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+p{
+     font-size: 1.1rem;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-img {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.content-text h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #23272a;
+  margin-bottom: 20px;
+  font-family: 'gg sans', 'Whitney', 'Helvetica Neue', sans-serif;
+}
+
+.content-text p {
+  font-size: 16px;
+  color: #4f545c;
+  line-height: 1.625;
+  font-weight: 400;
+  font-family: 'gg sans', 'Whitney', 'Helvetica Neue', sans-serif;
+}
+
+
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 60px 40px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+
+}
+
+.content-img3 {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  order: 1;
+}
+
+.content-img3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-text3 {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  order: -1;
+}
+
+.content-text3 h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #23272a;
+  margin-bottom: 20px;
+  font-family: 'gg sans', 'Whitney', 'Helvetica Neue', sans-serif;
+}
+
+.content-text3 p {
+  font-size: 16px;
+  color: #4f545c;
+  line-height: 1.625;
+  font-weight: 400;
+  font-family: 'gg sans', 'Whitney', 'Helvetica Neue', sans-serif;
+}
+
+.container4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 60px;
+}
+
+.content-img4{
+  min-width: 300px;
+  max-width: 500px;
+  flex: 1;
+
+}
+.content-img4 img{
+  width: 100%;
+}
+
+.content-text4{
+  min-width: 300px;
+   max-width: 500px;
+   flex: 1;
+}
+
+.content-text4 h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #23272a;
+  margin-bottom: 20px;
+  font-family: 'gg sans', 'Whitney', 'Helvetica Neue', sans-serif;
+}
+
+.content-text4 p {
+  font-size: 16px;
+  color: #4f545c;
+  line-height: 1.625;
+  font-weight: 400;
+  font-family: 'gg sans', 'Whitney', 'Helvetica Neue', sans-serif;
+}
+
+
+.container-final{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.content-text5 h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #23272a;
+  margin-bottom: 20px;
+  font-family: 'gg sans', 'Whitney', 'Helvetica Neue', sans-serif;
+}
+
+.content-text5 p {
+  font-size: 16px;
+  color: #4f545c;
+  line-height: 1.625;
+  font-weight: 400;
+  font-family: 'gg sans', 'Whitney', 'Helvetica Neue', sans-serif;
+}
+
+.content-img5{
+  flex: 1;
+  min-width: 300px;
+  max-width: 800px;
+
+}
+.content-img5 img{
+width: 100%;
+height: auto;
+
+}
+.content-text5{
+  flex: 1;
+   min-width: 300px;
+  max-width: 500px;
+  margin-top: 30px;
+
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: wrap;
+  background-color: #23272A;
+  text-align: center;
+}
+
+.rodape{
+ flex: 1;
+  min-width: 300px;
+  max-width: 900px;
+  padding: 20px
+}
+.rodape{
+  width: 100%;
+}
